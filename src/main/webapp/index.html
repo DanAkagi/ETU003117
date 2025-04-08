@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormDatabase</title>
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Bienvenue sur FormDatabase</h1>
+        <form action="DeptServlet" method="post" class="mb-3">
+            <div class="form-group">
+                <label for="NomDept">Nouveau département</label>
+                <input type="text" class="form-control" name="NomDept" id="NomDept" placeholder="Ex: Comptabilité">
+            </div>
+            <button type="submit" class="btn btn-primary">Valider</button>
+        </form>
+        <a href="FormEmpServlet" class="btn btn-link">Aller vers Formulaire Emp</a>
+        <a href="FormCompteServlet" class="btn btn-link">Aller vers Formulaire Compte</a>
+        <a href="FormPrevServlet" class="btn btn-link">Aller vers Formulaire Prévision</a>
+        <a href="FormDepenseServlet" class="btn btn-link">Aller vers Formulaire Dépense</a>
+    </div>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

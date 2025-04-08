@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" 
+         version="5.0"> 
+    <display-name>FormDatabase</display-name> 
+    <servlet> 
+        <servlet-name>DeptServlet</servlet-name> 
+        <servlet-class>servlet.DeptServlet</servlet-class> 
+    </servlet> 
+    <servlet-mapping> 
+        <servlet-name>DeptServlet</servlet-name> 
+        <url-pattern>/DeptServlet</url-pattern> 
+    </servlet-mapping>
+
+    <servlet> 
+        <servlet-name>EmpServlet</servlet-name> 
+        <servlet-class>servlet.EmpServlet</servlet-class> 
+    </servlet> 
+    <servlet-mapping> 
+        <servlet-name>EmpServlet</servlet-name> 
+        <url-pattern>/EmpServlet</url-pattern> 
+    </servlet-mapping>
+
+    <servlet> 
+        <servlet-name>FormEmpServlet</servlet-name> 
+        <servlet-class>servlet.FormEmpServlet</servlet-class> 
+    </servlet> 
+    <servlet-mapping> 
+        <servlet-name>FormEmpServlet</servlet-name> 
+        <url-pattern>/FormEmpServlet</url-pattern> 
+    </servlet-mapping> 
+
+    <servlet> 
+        <servlet-name>FormCompteServlet</servlet-name> 
+        <servlet-class>servlet.FormCompteServlet</servlet-class> 
+    </servlet> 
+    <servlet-mapping> 
+        <servlet-name>FormCompteServlet</servlet-name> 
+        <url-pattern>/FormCompteServlet</url-pattern> 
+    </servlet-mapping> 
+
+    <servlet> 
+        <servlet-name>FormPrevServlet</servlet-name> 
+        <servlet-class>servlet.FormPrevServlet</servlet-class> 
+    </servlet> 
+    <servlet-mapping> 
+        <servlet-name>FormPrevServlet</servlet-name> 
+        <url-pattern>/FormPrevServlet</url-pattern> 
+    </servlet-mapping> 
+
+    <servlet> 
+        <servlet-name>FormDepenseServlet</servlet-name> 
+        <servlet-class>servlet.FormDepenseServlet</servlet-class> 
+    </servlet> 
+    <servlet-mapping> 
+        <servlet-name>FormDepenseServlet</servlet-name> 
+        <url-pattern>/FormDepenseServlet</url-pattern> 
+    </servlet-mapping> 
+
+
+</web-app> 

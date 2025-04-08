@@ -1,0 +1,35 @@
+/* styles.css */
+body {
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.alert {
+    margin-bottom: 20px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.empty-message {
+    color: #666;
+    font-style: italic;
+}
+
+.actions {
+    margin-top: 20px;
+    text-align: center;
+}
